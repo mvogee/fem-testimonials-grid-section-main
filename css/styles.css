@@ -1,5 +1,31 @@
 
+.body {
+	background-color: hsl(210, 46%, 95%);
+	max-width: 1440px;
+	font-family:'Barlow Semi Condensed', sans-serif;
+}
 
+.profile-picture {
+	border-radius: 100%;
+	width: 100px;
+}
+
+.person-name {
+	font-weight: 400;
+}
+
+.person-title {
+	font-weight: 300;
+}
+
+.sub-head-quote {
+	font-weight: 600;
+}
+
+.main-copy {
+	color: #FFF;
+	font-weight: 400;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
