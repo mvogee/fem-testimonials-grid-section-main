@@ -1,13 +1,23 @@
-
-.body {
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
 	background-color: hsl(210, 46%, 95%);
 	max-width: 1440px;
 	font-family:'Barlow Semi Condensed', sans-serif;
 }
 
+/* General tags */
+.card-basic {
+	background-color: #FFF;
+	border-radius: 10px;
+	max-width: 300px;
+}
+
 .profile-picture {
 	border-radius: 100%;
-	width: 100px;
+	width: 30px;
 }
 
 .person-name {
@@ -27,5 +37,13 @@
 	font-weight: 400;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+/*specific tags*/
+
+
+
+.attribution {
+	font-size: 11px; text-align: center; 
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
